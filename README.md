@@ -37,7 +37,11 @@ credit_card
 company  
 
 ## Future Improvements
-- Add a GUI version
+- Develop a **GUI version** for easier usage  
+- Add **export options**: CSV and JSON  
+- Allow **custom column types** via configuration  
+- Support **multi-language datasets** beyond English/Persian
+
 - Export data to CSV or JSON
 
 
