@@ -1,4 +1,4 @@
-# Faker Database Generator
+# Fake Database Generator
 
 A simple and customizable Python tool that generates an SQLite database filled with fake user information. It allows you to choose the database name, table name, fields, language, and the number of generated records.
 
