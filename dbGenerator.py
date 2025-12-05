@@ -113,11 +113,14 @@ for i in range(number):
             row_values.append(f.email())
         elif column == 'compony':
             row_values.append(f.company())
+        elif column == 'gender':
+            row_values.append(gender)
 
     placeholders = ", ".join(["?"] * len(row_values))
     insert_query += f") VALUES ({placeholders})"
 
     cursor.execute(insert_query, tuple(row_values))
     conn.commit()
+
 
 print(f"Data created successfully in {dbFileName}.db inside table '{tableName}'.")
